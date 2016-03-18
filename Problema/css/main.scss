@@ -1,0 +1,75 @@
+// Variables
+$padding: 20px 0px;
+$margin: 40px 0px;
+$width: 90%;
+$border: 50px;
+$txt-white: #ffffff;
+$blue: #3399ff;
+
+//secciones
+#mainNav {
+	padding: $padding;
+
+		img {
+			width: $width;
+		}
+}
+#fondo {
+	background-image: url(../images/fondo.jpg);
+	background-size: cover;
+	background-position: center;
+
+		.texto {
+			padding: 100px 10px;
+			color: $txt-white;
+		}
+	
+}
+section, footer {
+	padding: $margin;
+}
+.bg-gray {
+	background-color: #eee;
+}
+
+//utilidades
+.btn {
+	border-color: $blue;
+	border-radius: $border;
+	background-color: transparent;
+	color: $blue;
+
+		&:hover {
+			opacity: 1;
+			background-color: $blue;
+		}
+}
+.brillo {
+	background: rgba(0,0,0,0.5);
+	height: 100%;
+}
+.text-gray {
+	color: gray;
+}
+span {
+	color: $blue;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+.margin-auto {
+	margin-top: 5%;
+}
+.pd-20 {
+	padding: $padding;
+}
+.float-l {
+	display: inline-block;
+}
+.circle {
+	border-radius: $border+50px;
+	border: 1px solid $blue;
+	color: $blue;
+	padding: 10px;
+	margin: 20px 5px;
+}
